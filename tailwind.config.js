@@ -21,6 +21,14 @@ tailwind.config = {
             'about-card02': "linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.604)),url(./images/about_image02.png)",
             'about-card03': "linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.604)),url(./images/about_image03.png)",
             'footer-texture': "url('/img/footer-texture.png')",
+            screens: {
+              'xs': '340px',
+              'sm': '640px',
+              'md': '768px',
+              'lg': '1024px',
+              'xl': '1280px',
+              
+            }
           }
       }
     }
